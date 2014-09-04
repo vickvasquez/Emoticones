@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style>
+	#emoticon img
+	{
+		display:inline-block;
+		cursor: pointer;
+		height:40px;
+		vertical-align: top;
+		width:40px;
+	}
+	#emoticon
+	{
+		border:1px dashed black;
+		width:150px;
+	}
+	</style>
+	<title> Emoticones (haber si sale) </title>
+</head>
+<body>
+ 	
+ 	<input type="text" id="texto" name="mensaje" />
+ 	<div id="emoticon">
+ 		
+ 	</div>
+
+ 	<div id="seleccionaste">
+ 		
+ 	</div>
+
+ 	<script id="tpl-emo" type='text/html'>
+ 		<img src= <% url %> />
+ 	</script>
+ 	<script src="./js/emoticons.js"></script>
+</body>
+</html>
